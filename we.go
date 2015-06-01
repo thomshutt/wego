@@ -277,7 +277,7 @@ var (
 )
 
 const (
-	uri       = "https://api.worldweatheronline.com/free/v2/weather.ashx?"
+	uri       = "http://api.worldweatheronline.com/free/v2/weather.ashx?"
 	slotcount = 4
 )
 

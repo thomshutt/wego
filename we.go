@@ -17,6 +17,7 @@ import (
 	"strings"
 	"time"
 	"unicode/utf8"
+	"crypto/sha512"
 )
 
 type configuration struct {
@@ -277,7 +278,7 @@ var (
 )
 
 const (
-	uri       = "http://api.worldweatheronline.com/free/v2/weather.ashx?"
+	uri       = "https://api.worldweatheronline.com/free/v2/weather.ashx?"
 	slotcount = 4
 )
 
